@@ -1,0 +1,244 @@
+body{
+    margin:0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 0;
+    background-color: black;
+}
+h1{
+    font-size: 190%;    
+}
+h2{
+    font-size: 130%;
+    color: White;
+}
+nav, p {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+a:link{
+    color: black;
+}
+a:visted {
+    color:black;
+}
+.contentWrapper{
+    background-color: black;
+}
+#Heading_Underline{
+    border-top: 2px solid #81A6D3;
+    width: 45px;
+    display: block;
+    margin: auto;
+}
+
+/* Header */
+header{
+    margin: 0 0 10px 0;
+    border-top: solid 01px black; /*#4588AD;*/
+    border-bottom: solid 1px black; /* #C0C2CF; /*black;/* #4588AD;*/
+    width: 100%;
+    height:80px;
+    background-color: #81A6D3; 
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+} 
+a:link{
+    color: white;
+    ;
+}
+a:visited {
+    color: white;
+}
+a:hover{
+    background-color: #81A6D3;
+}
+#icon{
+    margin: 5px;
+    height: 75%;
+    padding:12.5px;
+    display: flex;
+    order:1;   
+}
+#company {
+    color: white;
+     order: 2;    
+}
+header.search{
+    order: 3;
+}
+#navi{
+    order: 4;
+    margin-left: auto; 
+    margin-right: 10px;
+    font-size:130%; 
+    padding: 20px;
+}
+#navi a{
+    margin: 0 15px;
+}
+
+/* end Header */
+
+/* Banner section*/
+.banner{
+    align-items: center;
+    margin:  40PX;
+    margin-top: -20px;
+}
+.banner nav{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+.banner a {
+    margin: 30px;
+}
+.banner img{
+    width: 95%;
+    margin: auto;
+    margin-top: -30px;
+    justify-self: center;
+    display: block;
+}
+/* end Banner section*/
+
+/* productGroups section */
+.about
+{
+    display: block;
+    margin: 0 auto;
+    align-content: center; 
+    color: White;  
+}
+.about h1, h2{
+    text-align: center;   
+}
+.about p{
+    text-align: center;
+}
+.interests {
+    text-align: center;
+    border-top: 1px solid #81A6D3;
+    border-bottom: 1px solid #81a6d3;
+    padding: 20px;
+   
+}
+#Flex1{
+    display: inline-flex;
+    width: 100%;
+    background-color: black; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.imagewrap{
+    display: inline-flex;
+    position: relative;  
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+.imagewrap h3{
+    position: absolute;
+    bottom: 100%;
+    color: #81a6d3;
+    height: 12%;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.button:hover{
+    background-color: #F16368;
+}
+/*end productGroups Section*/
+
+/* info section */
+.skillset{
+    text-align: center;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 20px;
+}
+.skillset p{
+    color: white;
+    padding: 0% 30%;
+    margin: 10px;
+}
+/* end info section */
+
+/*featured*/
+.featured {
+    width:100%;
+    display: block;
+
+    margin: auto;
+}
+.featured h2{
+    text-align: center;  
+}
+#Flex2{
+    display: inline-flex;
+    width: 100%;
+   
+    margin: 0 auto;
+   
+}
+.featured imagewrap{
+    position: relative;  
+    margin: 0 auto;
+    margin-left: 5%;
+}
+.featured .button{
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    background-color: #FFFFFF;
+    height: 12%;
+    border: 2px solid #F16368;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.featured .button:hover{
+    background-color: #F16368;
+}
+
+/* end of featured */
+
+/* footer */
+.foot{
+    margin: 20px 0 10px 0;
+    border-bottom: solid 0px black;
+    border-top: solid 1px black;/* #4588AD;*/
+    width: 100%;
+    height:60px;
+    background-color:#78C6DE; /* #F3C2C5; /*#507DC3;   #6c8cc9*/
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+#copyright{
+    order: 1;
+    margin-top:20px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+#socialLinks{
+    order: 2;
+    margin-left: 35%; 
+    margin-right: 40px;
+    font-size:130%; 
+    padding: 20px;
+}
+#socialLinks a{
+    margin: 20px;
+}
+#contact{
+    order:3;
+    margin-top: 20px;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+
+
